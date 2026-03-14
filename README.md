@@ -16,7 +16,9 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
-**Logic Diagram**
+**Logic Diagram:**
+
+
 
 **Procedure**
 
@@ -33,9 +35,22 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```module exp2(
+input A,B,C,D,
+output F
+);
+assign F=(~A & ~B & ~C & ~D) | 
+			( A & ~C & ~D)		  |
+			(~B &  C & ~D)      |
+			(~A &  B &  C &  D) |
+			( B & ~C &  D);
+endmodule
+```
+```
+Developed by: D.HEMA
+RegisterNumber: 212225220038
+```
 
 
 **RTL realization**
@@ -43,6 +58,8 @@ Developed by: RegisterNumber:*/
 **Output:**
 
 **RTL**
+
+
 
 **Timing Diagram**
 
