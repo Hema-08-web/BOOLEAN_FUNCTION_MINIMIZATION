@@ -20,6 +20,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -63,7 +64,11 @@ RegisterNumber: 212225220038
 
 
 
+
+
+
 **Timing Diagram**
+
 
 **Result:**
 
